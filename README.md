@@ -23,3 +23,11 @@ Things you may want to cover:
 
 * ...
 gem install mysql2 -v '0.3.21'
+
+
+
+controller Generator
+
+rails g controller pages home about contact
+
+rails g model Skill title percent_utilized:integer

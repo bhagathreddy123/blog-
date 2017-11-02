@@ -29,6 +29,7 @@ class ArticlesController < ApplicationController
   
   def index
     @articles = Article.all
+    @skills = Skill.all
   end
 
   def destroy
