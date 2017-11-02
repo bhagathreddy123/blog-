@@ -31,3 +31,6 @@ controller Generator
 rails g controller pages home about contact
 
 rails g model Skill title percent_utilized:integer
+rails g resource Portfolio title subtitle body:text main_image:text thumb_image:text 
+
+
